@@ -8,3 +8,4 @@ int main()
     printf("amount in IN=%d",b);
 
     return 0;
+}
