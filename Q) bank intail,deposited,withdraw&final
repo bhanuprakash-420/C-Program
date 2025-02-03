@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    printf("intial amount=");
+    scanf("%d",&a);
+    printf("money deposited=");
+    scanf("%d",&b);
+    c=a+b;
+    printf("withdraw amount=");
+    scanf("%d",&d);
+    e=c-d;
+    printf("final amount=%d",e);
+
+    return 0;
+}
