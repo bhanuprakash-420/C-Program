@@ -7,3 +7,20 @@ int main()
     printf("your name is %s.",name);
     return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[20]="Bhanu";
+    char b[20]={'B','h','a','n','u','\0'};
+
+    printf("Length of string a = %d \n",strlen(a));
+    printf("Length of string b = %d \n",strlen(b));
+
+    return 0;
+}
