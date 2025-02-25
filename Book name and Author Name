@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+
+struct Book
+{
+    char bookname[50];
+    char authorname[50];
+    int pageno;
+    float price;
+}b1,b2;
+
+int main(){
+    strcpy(b1.bookname,"MY LIFE STORY");
+    strcpy(b1.authorname,"DAGGAD");
+    
+    b1.pageno=500;
+    b1.price=1500;
+    
+    printf("Book name:%s\n",b1.bookname);
+    printf("Author Name: %s\n",b1.authorname);
+    printf("Page no:%d\n",b1.pageno);
+    printf("Price: %2f\n\n",b1.price);
+    strcpy(b2.bookname,"MY FIRST INCIDENT");
+    strcpy(b2.authorname,"BHANU");
+    
+    b2.pageno=1000;
+    b2.price=2000;
+    
+    printf("Book Name:%s\n",b2.bookname);
+    printf("Author Name;%s\n",b2.authorname);
+    printf("Page No%d\n",b2.pageno);
+    printf("Price:%.2f",b2.price);
+    
+    return 0;
+}
